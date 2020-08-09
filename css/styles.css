@@ -2,16 +2,30 @@ body {
   margin: 0;
   text-align: center;
   font-family: caveat, serif;
+
 }
 h1 {
-  margin-top: 0;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: Sacramento;
+  color: #e71414;
 }
 h2 {
   font-family: kalam;
+  font-size: 1.5em;
+  color: #3c2946;
+  font-weight: normal;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: purple;
+  border-width: 5px;
+  width: 3%;
 }
 
 h3 {
+  color: #fa26a0;
   font-family: kalam;
 }
 .top-container {
@@ -21,10 +35,12 @@ h3 {
 }
 
 .middle-container {
+  background-color: #b4dbd4;
 }
 
 .bottom-container {
-  }
+  background-color: #7fb8ad;
+}
 .mini {
   text-decoration: underline;
 }
@@ -38,4 +54,33 @@ h3 {
   position: absolute;
   right: 300px;
   top: 50px;
+}
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+
+}
+
+
+a:link {
+  color: #523906;
+}
+a:visited {
+  color: #810000;
+}
+a:hover {
+  color: #f3c623;
+  background-color: #000000;
+}
+.manager-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.cook-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
 }
